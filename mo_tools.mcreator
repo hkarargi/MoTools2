@@ -1,0 +1,497 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "HussmekIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_ingot"
+    },
+    {
+      "name": "HussmekOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_ore"
+    },
+    {
+      "name": "HussmekBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_block"
+    },
+    {
+      "name": "HussmekOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_ore_block_recipe"
+    },
+    {
+      "name": "HussmekBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_block_ore_recipe"
+    },
+    {
+      "name": "HussmekOreSmelting",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_ore_smelting"
+    },
+    {
+      "name": "HussmekPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_pickaxe"
+    },
+    {
+      "name": "HussmekAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_axe"
+    },
+    {
+      "name": "HussmekSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_sword"
+    },
+    {
+      "name": "HussmekShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_shovel"
+    },
+    {
+      "name": "HussmekHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_hoe"
+    },
+    {
+      "name": "HussmekPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_pickaxe_recipe"
+    },
+    {
+      "name": "HussmekAxeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_axe_recipe"
+    },
+    {
+      "name": "HussmekSwordRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_sword_recipe"
+    },
+    {
+      "name": "HussmekShovelRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_shovel_recipe"
+    },
+    {
+      "name": "HussmekHoeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_hoe_recipe"
+    },
+    {
+      "name": "HussmekArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HussmekArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor_helmet_recipe"
+    },
+    {
+      "name": "HussmekArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor_body_recipe"
+    },
+    {
+      "name": "HussmekArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor_leggings_recipe"
+    },
+    {
+      "name": "HussmekArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor_boots_recipe"
+    },
+    {
+      "name": "ExtraInventory",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extra_inventory"
+    },
+    {
+      "name": "HussmeksSack",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmeks_sack"
+    },
+    {
+      "name": "HusmekSackRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "husmek_sack_recipe"
+    },
+    {
+      "name": "HussmekArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blue",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue"
+    },
+    {
+      "name": "BlueOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ore"
+    },
+    {
+      "name": "BlueBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_block"
+    },
+    {
+      "name": "BlueOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ore_block_recipe"
+    },
+    {
+      "name": "BlueBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_block_ore_recipe"
+    },
+    {
+      "name": "BlueOreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ore_smelting"
+    },
+    {
+      "name": "BluePickaxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_pickaxe"
+    },
+    {
+      "name": "BlueAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_axe"
+    },
+    {
+      "name": "BlueSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_sword"
+    },
+    {
+      "name": "BlueShovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_shovel"
+    },
+    {
+      "name": "BlueHoe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_hoe"
+    },
+    {
+      "name": "BluePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_pickaxe_recipe"
+    },
+    {
+      "name": "BlueAxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_axe_recipe"
+    },
+    {
+      "name": "BlueSwordRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_sword_recipe"
+    },
+    {
+      "name": "BlueShovelRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_shovel_recipe"
+    },
+    {
+      "name": "BlueHoeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_hoe_recipe"
+    },
+    {
+      "name": "BlueArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlueArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_armor_helmet_recipe"
+    },
+    {
+      "name": "BlueArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_armor_body_recipe"
+    },
+    {
+      "name": "BlueArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_armor_leggings_recipe"
+    },
+    {
+      "name": "BlueArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_armor_boots_recipe"
+    },
+    {
+      "name": "HussmekTab",
+      "type": "tab",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hussmek_tab"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mo_tools.hussmek_pickaxe": "Hussmek Pickaxe",
+      "block.mo_tools.blue_ore": "Blue Ore",
+      "block.mo_tools.hussmek_block": "Block of Hussmek",
+      "item.mo_tools.hussmek_armor_boots": "Hussmek Boots",
+      "block.mo_tools.hussmek_ore": "Hussmek Ore",
+      "item.mo_tools.blue_pickaxe": "Blue Pickaxe",
+      "item.mo_tools.blue_armor_boots": "Blue Boots",
+      "item.mo_tools.blue_sword": "Blue Sword",
+      "item.mo_tools.hussmek_sword": "Hussmek Sword",
+      "block.mo_tools.blue_block": "Block of Blue",
+      "item.mo_tools.hussmek_axe": "Hussmek Axe",
+      "item.mo_tools.blue_shovel": "Blue Shovel",
+      "item.mo_tools.hussmek_shovel": "Hussmek Shovel",
+      "item.mo_tools.blue": "Blue Gem",
+      "item.mo_tools.hussmeks_sack": "Hussmek\u0027s Sack",
+      "item.mo_tools.blue_armor_helmet": "Blue Helmet",
+      "item.mo_tools.hussmek_armor_helmet": "Hussmek Helmet",
+      "item.mo_tools.hussmek_armor_chestplate": "Hussmek Chestplate",
+      "item.mo_tools.hussmek_hoe": "Hussmek Hoe",
+      "item.mo_tools.blue_armor_chestplate": "Blue Chestplate",
+      "item.mo_tools.blue_axe": "Blue Axe",
+      "itemGroup.tabhussmek_tab": "Hussmek Tab",
+      "item.mo_tools.hussmek_ingot": "Hussmek",
+      "item.mo_tools.blue_hoe": "Blue Hoe",
+      "item.mo_tools.blue_armor_leggings": "Blue Leggings",
+      "item.mo_tools.hussmek_armor_leggings": "Hussmek Leggings"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mo_tools",
+    "modName": "Mo Tools",
+    "version": "1.0.0",
+    "author": "Hussein El Karargi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.motools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

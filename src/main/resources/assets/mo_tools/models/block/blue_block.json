@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mo_tools:blocks/blue_ore_block",
+    "particle": "mo_tools:blocks/blue_ore_block"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blue_shovel",
+    "customModelName": "Normal",
+    "name": "Blue Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HussmekTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 8,
+    "efficiency": 10.0,
+    "attackSpeed": 2.0,
+    "enchantability": 30,
+    "damageVsEntity": 10.0,
+    "usageCount": 9000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Blue"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

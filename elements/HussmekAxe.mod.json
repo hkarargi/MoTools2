@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hussmek_axe",
+    "customModelName": "Normal",
+    "name": "Hussmek Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HussmekTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 16,
+    "efficiency": 20.0,
+    "attackSpeed": 4.0,
+    "enchantability": 60,
+    "damageVsEntity": 60.0,
+    "usageCount": 18000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:HussmekIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

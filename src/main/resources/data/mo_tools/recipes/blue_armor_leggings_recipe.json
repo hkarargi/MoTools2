@@ -1,0 +1,36 @@
+{
+  "group": "mo_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mo_tools:blue"
+    },
+    "1": {
+      "item": "mo_tools:blue"
+    },
+    "2": {
+      "item": "mo_tools:blue"
+    },
+    "3": {
+      "item": "mo_tools:blue"
+    },
+    "5": {
+      "item": "mo_tools:blue"
+    },
+    "6": {
+      "item": "mo_tools:blue"
+    },
+    "8": {
+      "item": "mo_tools:blue"
+    }
+  },
+  "result": {
+    "item": "mo_tools:blue_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "mo_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mo_tools:blue"
+    },
+    "2": {
+      "item": "mo_tools:blue"
+    },
+    "3": {
+      "item": "mo_tools:blue"
+    },
+    "4": {
+      "item": "mo_tools:blue"
+    },
+    "5": {
+      "item": "mo_tools:blue"
+    },
+    "6": {
+      "item": "mo_tools:blue"
+    },
+    "7": {
+      "item": "mo_tools:blue"
+    },
+    "8": {
+      "item": "mo_tools:blue"
+    }
+  },
+  "result": {
+    "item": "mo_tools:blue_armor_chestplate",
+    "count": 1
+  }
+}

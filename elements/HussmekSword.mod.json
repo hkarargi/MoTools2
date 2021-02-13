@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hussmek_sword",
+    "customModelName": "Normal",
+    "name": "Hussmek Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HussmekTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 16,
+    "efficiency": 20.0,
+    "attackSpeed": 6.0,
+    "enchantability": 60,
+    "damageVsEntity": 45.0,
+    "usageCount": 18000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:HussmekIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

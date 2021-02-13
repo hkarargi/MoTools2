@@ -1,0 +1,12 @@
+{
+  "group": "mo_tools",
+  "type": "minecraft:smelting",
+  "experience": 8,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mo_tools:hussmek_ore"
+  },
+  "result": {
+    "item": "mo_tools:hussmek_ingot"
+  }
+}

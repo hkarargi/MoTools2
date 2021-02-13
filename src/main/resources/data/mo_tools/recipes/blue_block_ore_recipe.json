@@ -1,0 +1,13 @@
+{
+  "group": "mo_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mo_tools:blue_block"
+    }
+  ],
+  "result": {
+    "item": "mo_tools:blue",
+    "count": 9
+  }
+}

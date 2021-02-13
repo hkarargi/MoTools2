@@ -1,0 +1,24 @@
+{
+  "group": "mo_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mo_tools:hussmek_ingot"
+    },
+    "1": {
+      "item": "mo_tools:hussmek_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mo_tools:hussmek_sword",
+    "count": 1
+  }
+}
