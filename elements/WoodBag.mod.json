@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hussmekbag",
+    "texture": "backpack",
     "customModelName": "Normal",
-    "name": "Hussmek's Sack",
-    "rarity": "EPIC",
+    "name": "Wood Bag",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:HussmekTab"
     },
@@ -23,12 +23,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "A sack with 90 slots"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "ExtraInventory",
-    "inventorySize": 80,
+    "guiBoundTo": "CoolBag",
+    "inventorySize": 23,
     "inventoryStackSize": 64
   }
 }

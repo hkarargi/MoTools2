@@ -1,0 +1,56 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 185,
+    "height": 176,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 6,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Free Steak",
+          "onClick": {
+            "name": "SteakButtonClicked"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Free Steak",
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Free Golden Carrot",
+          "onClick": {
+            "name": "GoldenCarrotButtonClicked"
+          },
+          "width": 115,
+          "height": 20,
+          "name": "Free Golden Carrot",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hussmek's Creative Mode Sack",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Hussmek's Creative Mode Sack",
+          "x": 141,
+          "y": 38
+        }
+      }
+    ]
+  }
+}

@@ -10,13 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.STRING"
-      },
-      {
         "value": "CUSTOM:HussmekIngot"
-      },
-      {
-        "value": "Items.STRING"
       },
       {
         "value": "CUSTOM:HussmekIngot"
@@ -25,10 +19,16 @@
         "value": ""
       },
       {
+        "value": "Items.STRING"
+      },
+      {
         "value": "CUSTOM:HussmekIngot"
       },
       {
         "value": "CUSTOM:HussmekIngot"
+      },
+      {
+        "value": "Items.STRING"
       },
       {
         "value": "CUSTOM:HussmekIngot"
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:HussmeksSack"
+      "value": "CUSTOM:HussmeksBag"
     },
     "name": "husmek_sack_recipe",
     "namespace": "mod"

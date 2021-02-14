@@ -2,28 +2,28 @@
   "group": "mo_tools",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5",
+    "01 ",
+    "345",
     "678"
   ],
   "key": {
     "0": {
-      "item": "minecraft:string"
+      "item": "mo_tools:hussmek_ingot"
     },
     "1": {
       "item": "mo_tools:hussmek_ingot"
     },
-    "2": {
+    "3": {
       "item": "minecraft:string"
     },
-    "3": {
+    "4": {
       "item": "mo_tools:hussmek_ingot"
     },
     "5": {
       "item": "mo_tools:hussmek_ingot"
     },
     "6": {
-      "item": "mo_tools:hussmek_ingot"
+      "item": "minecraft:string"
     },
     "7": {
       "item": "mo_tools:hussmek_ingot"
@@ -33,7 +33,7 @@
     }
   },
   "result": {
-    "item": "mo_tools:hussmeks_sack",
+    "item": "mo_tools:hussmeks_bag",
     "count": 1
   }
 }

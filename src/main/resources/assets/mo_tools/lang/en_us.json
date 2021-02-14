@@ -1,6 +1,7 @@
 {
   "item.mo_tools.hussmek_pickaxe": "Hussmek Pickaxe",
   "block.mo_tools.blue_ore": "Blue Ore",
+  "item.mo_tools.hussmeks_bag": "Hussmek\u0027s Bag",
   "block.mo_tools.hussmek_block": "Block of Hussmek",
   "item.mo_tools.hussmek_armor_boots": "Hussmek Boots",
   "block.mo_tools.hussmek_ore": "Hussmek Ore",
@@ -13,10 +14,10 @@
   "item.mo_tools.blue_shovel": "Blue Shovel",
   "item.mo_tools.hussmek_shovel": "Hussmek Shovel",
   "item.mo_tools.blue": "Blue Gem",
-  "item.mo_tools.hussmeks_sack": "Hussmek\u0027s Sack",
   "item.mo_tools.blue_armor_helmet": "Blue Helmet",
   "item.mo_tools.hussmek_armor_helmet": "Hussmek Helmet",
   "item.mo_tools.hussmek_armor_chestplate": "Hussmek Chestplate",
+  "item.mo_tools.hussmek_creative_bag": "Hussmek Creative Bag",
   "item.mo_tools.hussmek_hoe": "Hussmek Hoe",
   "item.mo_tools.blue_armor_chestplate": "Blue Chestplate",
   "item.mo_tools.blue_axe": "Blue Axe",
@@ -24,5 +25,6 @@
   "item.mo_tools.hussmek_ingot": "Hussmek",
   "item.mo_tools.blue_hoe": "Blue Hoe",
   "item.mo_tools.blue_armor_leggings": "Blue Leggings",
+  "item.mo_tools.wood_bag": "Wood Bag",
   "item.mo_tools.hussmek_armor_leggings": "Hussmek Leggings"
 }

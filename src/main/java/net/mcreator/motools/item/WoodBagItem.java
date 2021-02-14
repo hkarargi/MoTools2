@@ -32,27 +32,24 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.motools.itemgroup.HussmekTabItemGroup;
-import net.mcreator.motools.gui.ExtraInventoryGui;
+import net.mcreator.motools.gui.CoolBagGui;
 import net.mcreator.motools.MoToolsModElements;
 
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
-import java.util.List;
-
 import io.netty.buffer.Unpooled;
 
 @MoToolsModElements.ModElement.Tag
-public class HussmeksSackItem extends MoToolsModElements.ModElement {
-	@ObjectHolder("mo_tools:hussmeks_sack")
+public class WoodBagItem extends MoToolsModElements.ModElement {
+	@ObjectHolder("mo_tools:wood_bag")
 	public static final Item block = null;
-	public HussmeksSackItem(MoToolsModElements instance) {
-		super(instance, 6);
+	public WoodBagItem(MoToolsModElements instance) {
+		super(instance, 54);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -60,7 +57,7 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void onItemDropped(ItemTossEvent event) {
 		if (event.getEntityItem().getItem().getItem() == block) {
-			if (Minecraft.getInstance().currentScreen instanceof ExtraInventoryGui.GuiWindow) {
+			if (Minecraft.getInstance().currentScreen instanceof CoolBagGui.GuiWindow) {
 				Minecraft.getInstance().player.closeScreen();
 			}
 		}
@@ -72,8 +69,8 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(HussmekTabItemGroup.tab).maxStackSize(1).rarity(Rarity.EPIC));
-			setRegistryName("hussmeks_sack");
+			super(new Item.Properties().group(HussmekTabItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			setRegistryName("wood_bag");
 		}
 
 		@Override
@@ -92,12 +89,6 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 		}
 
 		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("A sack with 90 slots"));
-		}
-
-		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();
@@ -108,7 +99,7 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Hussmek's Sack");
+						return new StringTextComponent("Wood Bag");
 					}
 
 					@Override
@@ -116,7 +107,7 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 						PacketBuffer packetBuffer = new PacketBuffer(Unpooled.buffer());
 						packetBuffer.writeBlockPos(new BlockPos(x, y, z));
 						packetBuffer.writeByte(hand == Hand.MAIN_HAND ? 0 : 1);
-						return new ExtraInventoryGui.GuiContainerMod(id, inventory, packetBuffer);
+						return new CoolBagGui.GuiContainerMod(id, inventory, packetBuffer);
 					}
 				}, buf -> {
 					buf.writeBlockPos(new BlockPos(x, y, z));
@@ -167,7 +158,7 @@ public class HussmeksSackItem extends MoToolsModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(80) {
+			return new ItemStackHandler(23) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mo_tools:items/hussmekbag"
+    "layer0": "mo_tools:items/hcbbs"
   }
 }
